@@ -1,26 +1,26 @@
-public class LibrsryCard <K, V>{
-    protected K card;
+public class LibraryCard<K, V>{
+    protected K cardNum;
     protected V info;
 
 
-    public K getCard() {
-        return card;
+    public K getCardNum() {
+        return cardNum;
     }
     public V getInfo() {
         return info;
     }
 
 
-    public void setCard(K card) {
-        this.card = card;
+    public void setCard(K cardNum) {
+        this.cardNum = cardNum;
     }
     public void setInfo(V info) {
         this.info = info;
     }
 
 
-    public LibrsryCard(K card, V info) {
-        this.card = card;
+    public LibraryCard(K cardNum, V info) {
+        this.cardNum = cardNum;
         this.info = info;
     }
 }
