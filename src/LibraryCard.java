@@ -3,23 +3,23 @@ public class LibraryCard<K, V>{
     protected V info;
 
 
-    public K getCardNum() {
+    public K getCardNum() {  // Получения номера карты
         return cardNum;
     }
-    public V getInfo() {
+    public V getInfo() {  // Получение информации о книги
         return info;
     }
 
 
-    public void setCard(K cardNum) {
+    public void setCard(K cardNum) {  // Выведение номера карты
         this.cardNum = cardNum;
     }
-    public void setInfo(V info) {
+    public void setInfo(V info) {  // Выведение информации о книге
         this.info = info;
     }
 
 
-    public LibraryCard(K cardNum, V info) {
+    public LibraryCard(K cardNum, V info) {  // Выведение карты
         this.cardNum = cardNum;
         this.info = info;
     }

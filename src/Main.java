@@ -1,6 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        Library library = new Library();
+        Library library = new Library();   // Создание библиотеки
+
+        // Ниже для каждой книги выделеы части кода для создания тайтла, его карточки и добавление в библиотеку
 
         Book<String> book1 = new Book<>("Дорохедоро");
         library.addBook(book1, 1, "Автор Дорохедоро");
@@ -14,7 +16,7 @@ public class Main {
         library.addBook(book1, 3, "Автор Страны самоцветов");
         LibraryCard<Integer, String> card3 = library.returnBook(3);
 
-        library.bookDemonstration();
+        library.bookDemonstration(); // Использование метода демонстрации библиотеки
     }
 }
 
